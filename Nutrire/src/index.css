@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Euphoria+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@497&family=Euphoria+Script&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("./assets/nutrire-fondo.png") no-repeat center center/cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+body::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: -1;
+}
+
+.bg-body-tertiary{
+  display: flex;
+  justify-content: space-around;
+}
+
+.bienvenida {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  padding-left: 3%;
+  color: #fff;
+  font-family: 'Sour Gummy';
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detalle-title{
+  display: flex;
+  align-items: center;
+  padding-left: 3%;
+}
+
+.card-body { 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+}
+
+
+.contain-detail {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contain-detail h3 {
+  color: #fff;
+  font-family: 'Sour Gummy';
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Sour Gummy';
+  width: 20vw;
+}
+
+.detail h3 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
